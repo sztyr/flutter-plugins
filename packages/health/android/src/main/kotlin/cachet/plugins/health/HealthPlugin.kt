@@ -162,7 +162,7 @@ class HealthPlugin(private var channel: MethodChannel? = null) : MethodCallHandl
             BODY_FAT_PERCENTAGE -> Field.FIELD_PERCENTAGE
             HEIGHT -> Field.FIELD_HEIGHT
             WEIGHT -> Field.FIELD_WEIGHT
-            STEPS -> Field.FIELD_STEPS
+            STEPS -> Field.TYPE_STEP_COUNT_DELTA
             ACTIVE_ENERGY_BURNED -> Field.FIELD_CALORIES
             HEART_RATE -> Field.FIELD_BPM
             BODY_TEMPERATURE -> HealthFields.FIELD_BODY_TEMPERATURE
